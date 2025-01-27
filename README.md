@@ -11,41 +11,13 @@
 ![Graph Overview](photos/sample_knowledge_graph.png)
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## 📋 About The Project
 This project focuses on analyzing pharmaceutical supply chain disruptions in Germany using a **Neo4j Knowledge Graph**.
 
 📊 Data used
 * [BFARM Public Database](https://anwendungen.pharmnet-bund.de/lieferengpassmeldungen/faces/public/meldungen.xhtml): Contains reports of drug shortages in Germany.
-* DKV Web Scraper: Extracted data using [this web scraper tool](https://github.com/HiAmara/webscraper-for-teamprojekt).
+* Web Scraper for [DKV](dkv.com): Extracted data using [this web scraper tool](https://github.com/HiAmara/webscraper-for-teamprojekt).
 
 Timeframe of the data was 2017 to 2023.
 
@@ -53,8 +25,8 @@ Timeframe of the data was 2017 to 2023.
 
 📈 Graph Structure <br>
 The knowledge graph consists of the following key components:
-* Nodes: Reports, Drugs, Reasons, Producers, Substances, Treatments.
-* Relationships: Shortages (report_has), causality (because and reason_influences), alternatives (has_alternative), producing (producer_of), containing substances (has_substance), according treatments (used_for).
+* **Nodes**: Reports, Drugs, Reasons, Producers, Substances, Treatments.
+* **Relationships**: Shortages (report_has), causality (because and reason_influences), alternatives (has_alternative), producing (producer_of), containing substances (has_substance), according treatments (used_for).
 
 ![Ontology](photos/ontology_graph.png)
 
