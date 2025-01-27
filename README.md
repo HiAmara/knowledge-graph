@@ -56,7 +56,7 @@ The knowledge graph consists of the following key components:
 * Nodes: Reports, Drugs, Reasons, Producers, Substances, Treatments.
 * Relationships: Shortages (report_has), causality (because and reason_influences), alternatives (has_alternative), producing (producer_of), containing substances (has_substance), according treatments (used_for).
 
-![Ontology](ontology.png)
+![Ontology](ontology_graph.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
