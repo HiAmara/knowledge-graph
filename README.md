@@ -8,7 +8,7 @@
   </p>
 </div>
 
-![Graph Overview](sample_knowledge_graph.png)
+![Graph Overview](photos/sample_knowledge_graph.png)
 
 
 <!-- TABLE OF CONTENTS -->
@@ -56,7 +56,7 @@ The knowledge graph consists of the following key components:
 * Nodes: Reports, Drugs, Reasons, Producers, Substances, Treatments.
 * Relationships: Shortages (report_has), causality (because and reason_influences), alternatives (has_alternative), producing (producer_of), containing substances (has_substance), according treatments (used_for).
 
-![Ontology](ontology_graph.png)
+![Ontology](photos/ontology_graph.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,10 +72,6 @@ Before using this repository, ensure you have the following installed:
 * [Neo4j](https://neo4j.com/)
 * Access to Jupyter Notebooks
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## 🔧 Usage
 * Download the Datasets and add their paths to the Script
@@ -87,21 +83,11 @@ Before using this repository, ensure you have the following installed:
 
 
 <!-- ROADMAP -->
-## 📷 Example Visualizations
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+## 📷 Example Queries and Visualizations
+![void alternatives](photos/void_alternatives.png)
+![exploration](photos/exploration.png)
+![ibuprofen](photos/ibuprofen.png)
+![top 5 reasons](photos/top_5_reasons.png)
 
 <!-- CONTACT -->
 ## Contact
