@@ -8,8 +8,10 @@
   </p>
 </div>
 
-![Graph Overview](photos/sample_knowledge_graph.png)
-
+<div style="display: flex; justify-content: space-around;">
+  <img src="photos/sample_knowledge_graph.png" alt="Image 1" style="width: 70%;">
+  <img src="photos/poster.png" alt="Image 2" style="width: 28%;">
+</div>
 
 <!-- ABOUT THE PROJECT -->
 ## 📋 About The Project
